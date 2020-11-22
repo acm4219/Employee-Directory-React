@@ -1,5 +1,5 @@
 import React from "react";
-
+import "../styles/table.css"
 function EmployeeDetail(props) {
     return (
         <div className="text-center">
