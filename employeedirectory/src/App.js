@@ -1,19 +1,14 @@
 import React from "react";
-import EmployeeTable from "./components/EmployeeTable";
-import Footer from "./components/Footer";
-import Header from "./components/Header";
-import Nav from "./components/Nav";
-import SearchBar from "./components/SearchBar";
-// import Wrapper from "./components/Wrapper";
+import Table from "./components/Table"
+import Header from "./components/Header"
+import Footer from "./components/Footer"
+import Searchbar from "./components/Searchbar"
 function App() {
   return (
     <div>
-       <Header />
-       <div>
-         <Nav />
-         <SearchBar />
-         <EmployeeTable />
-       </div>
+      <Header />
+      <Searchbar />
+       <Table />
        <Footer />
     </div>
    
