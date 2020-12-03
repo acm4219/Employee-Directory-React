@@ -1,14 +1,15 @@
 import React from "react";
-import Table from "./components/Table"
+import Employeetable from "./components/Employeetable"
 import Header from "./components/Header"
 import Footer from "./components/Footer"
 import Searchbar from "./components/Searchbar"
+
 function App() {
   return (
     <div>
       <Header />
       <Searchbar />
-       <Table />
+       <Employeetable />
        <Footer />
     </div>
    
