@@ -1,5 +1,6 @@
 import React from "react";
 import { Table } from "react-bootstrap"
+import EmployeeData from "./Employeedata"
 
 function Employeetable() {
     return(
@@ -18,7 +19,7 @@ function Employeetable() {
                     </tr>
                 </thead>
                 <tbody>
-                    
+                   <EmployeeData />
                 </tbody>
             </Table> 
        </div>
